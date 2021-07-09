@@ -1,11 +1,12 @@
 <?php
 
-$host="localhost";
-$user="root";
-$password="";
-$database="Kada_DB";
+$host="sql4.freesqldatabase.com";
+$user="sql4423835";
+$password="1V4JTSVxl4";
+$database="sql4423835";
+$port="3306";
 
-$connect = new mysqli($host, $user, $password, $database);
+$connect = new mysqli($host, $user, $password, $database, $port);
 
 // Get Vars
 $FirstName = $_POST["firstname"];
