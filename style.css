@@ -1,8 +1,10 @@
 body {
-    margin-top: 150px auto;
+    margin: 0 auto;
     background-color: #F9F9F9;
 }
-
+.SignUp {
+    margin-top: 150px;
+}
 .SignUp input {
     border: 1px solid #000;
     outline-border: none;
