@@ -1,0 +1,15 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  font-family: Arial;
+}
+.SignIn, .SignUp {
+  margin-top: 150px;
+}
+.SignIn form input, .SignUp from input {
+  margin: 10px 0px;
+  outline: none;
+  border: 1px solid silver;
+  
+}
